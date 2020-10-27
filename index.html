@@ -34,7 +34,141 @@
       </div>
       <!-- header end -->
       <!-- content start -->
-      
+      <h2 class="content-header">Here are some projects I enjoyed making.</h2>
+
+      <div class="portfolio">
+        <div class="project">
+          <h3 class="project-name">Food Stop</h3>
+          <div class="row">
+            <div class="col-sm-8">
+              <p>Food Stop is similar to passBy (listed below), but the use case is narrower and uses <b>ReactJS</b>. With Food Stop, the user is able to select a bus route using the NextBus API.  Then, it will search for restaurants near each bus stop.</p>
+              <p>Note, the NextBus api only supports http, so for now, the app only works when accessed through http.</p>
+              <div>
+                <a href="https://github.com/bschmaltz/food-stop" target="blank">Source code</a>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <a href="img/food-stop-screenshot.png" data-lightbox="image-1" data-title="Find food on your way home from work!">
+                <img class="project-image-wide" src="img/food-stop-screenshot.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3 class="project-name">passBy</h3>
+          <div class="row">
+            <div class="col-sm-8">
+              <p>This is my first <b>AngularJS</b> app. It essentially lets you input a route into Google Maps, and then, it searches along that route for highly rated Google Places. Finally, your route is shown with the highly rated results, and you can asynchronously add these results to your route.</p>
+              <p>This was primarily just a proof of concept. Google Places limited me to 10 searches at a time, so the results can be hit or miss.</p>
+              <div>
+                <a href="https://github.com/bschmaltz/pass-by" target="blank">Source code</a>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <a href="img/pass-by-screenshot.png" data-lightbox="image-2" data-title="passBy Atlanta to D.C.">
+                <img class="project-image-wide" src="img/pass-by-screenshot.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3 class="project-name">Reveal</h3>
+          <div class="row">
+            <div class="col-sm-8">
+              <p>Reveal is an app I created as a spin-off recently trending anonymous (gps based) social media apps.  It allows users to create a post anonymously, and other people in the general area can rate the post.  The twist is the original poster can reveal that he/she was the one that made the post.</p>
+
+              <p>There are some technical details worth mentioning.  This app is comprised of two parts. A <b>Rails</b> back-end that serves as a <b>RESTful API</b>, and a front-end Rails <b>mobile web app</b>.  Some notable features I learned to implement were: one way hashing of passwords, image uploading for profile pics, and notification polling.</p>
+              <div>
+                <a href="https://github.com/bschmaltz/reveal-api" target="blank">Back-end source code</a>
+              </div>
+              <div>
+                <a href="https://drive.google.com/folderview?id=0BwJrbdYDeYwHfi1pcnczTHFZRnlTV0ZjdDFpdll2UEsxTW5wb3I0aGF2SE4za29uNGRYSkE&usp=sharing" target="blank">Back-end API documentation</a>
+              </div>
+              <div>
+                <a href="https://github.com/bschmaltz/reveal" target="blank">Front-end source code</a>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <a href="img/reveal-screenshot.png" data-lightbox="image-3" data-title="Reveal's local feed">
+                <img class="project-image-tall" src="img/reveal-screenshot.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3 class="project-name">Tour de CB</h3>
+          <div class="row">
+            <div class="col-sm-8">
+              <p>While working at Career Builder (CB), in my spare time, I created this web app that allows people with <a href="http://www.deskcycle.com/" target="blank">desk cycles</a> to race one another in Google Street View.
+
+              <p>A coworker handled the interface (a Raspberry Pi measuring the cycle's resistance via AUX cable) for sending POST requests with the estimated distance of the cycle.  My app would then move the racer by that distance on a predetermined route (no steering needed).</p>
+
+              <p>Overall, the web app is very similar to an online video game.  There are multiple user created lobbies, and these lobbies have a cyclical flow: pre-race, racing, and post-race.  When you join a lobby, everything is updated in real time via <b>websockets</b>.  Racers move as markers in street view and on a normal map.  Additionally, you can chat (a nicer way of saying talk trash) with the other racers.  Lastly, users have stats that are shown and/or charted at the end of the race and on their profile.</p> 
+
+              <p>This <b>Rails web app</b> was a lot of fun to work on, but also, it was a very good way to learn how to use websockets.</p>
+              <div>
+                <a href="https://github.com/bschmaltz/tour_de_cb" target="blank">Source code</a>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <a href="img/tdcb-screenshot1.png" data-lightbox="tour-de-cb-imageset" data-title="Creating a lobby">
+              </a>
+              <a href="img/tdcb-screenshot2.png" data-lightbox="tour-de-cb-imageset" data-title="Pre-race, waiting for players">
+              </a>
+              <a href="img/tdcb-screenshot3.png" data-lightbox="tour-de-cb-imageset" data-title="Racing!">
+                <img class="project-image-wide" src="img/tdcb-screenshot3.png" />
+              </a>
+              <a href="img/tdcb-screenshot4.png" data-lightbox="tour-de-cb-imageset" data-title="While racing, hit the spacebar to see the entire map.">
+              </a>
+              <a href="img/tdcb-screenshot5.png" data-lightbox="tour-de-cb-imageset" data-title="I finished. Here are my stats.">
+              </a>
+              <a href="img/tdcb-screenshot6.png" data-lightbox="tour-de-cb-imageset" data-title="Post-race stats, I won!">
+              </a>
+              <a href="img/tdcb-screenshot7.png" data-lightbox="tour-de-cb-imageset" data-title="My profile">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3 class="project-name">c-p2p-chat</h3>
+          <div class="row">
+            <div class="col-sm-8">
+              <p>c-p2p-chat is a <b>peer-to-peer</b> chat program written in C, and you can run it in the terminal.  It certainly isn't as flashy as the previous projects, but this lower level programming was no less interesting to me.</p>
+
+              <p>This project was a group final project for my Networking I class.  We were given complete freedom in how we designed the protocol and implemented it. However, there were very few to no resources explaining any approach, which made it all the more rewarding in the end.</p>
+
+              <div>
+                <a href="https://drive.google.com/folderview?id=0BwJrbdYDeYwHfktzYURlVjRvckY3TUNZS0VVNUJ3ZVZHaUkwQkE4THB2S0pVVmVSRXZMaGM&usp=sharing" target="blank">Protocal documentation</a>
+              </div>
+              <div>
+                <a href="https://github.com/bschmaltz/c-p2p-chat" target="blank">Source code</a>  I was responsible for all of the tracker code (tracker.c).
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <a href="img/p2p-screenshot1.png" data-lightbox="p2p-imageset" data-title="Starting up the tracker.">
+                <img class="project-image-wide" src="img/p2p-screenshot1.png" />
+              </a>
+              <a href="img/p2p-screenshot2.png" data-lightbox="p2p-imageset" data-title="Peer 1 connects and creates room 1.">
+              </a>
+              <a href="img/p2p-screenshot3.png" data-lightbox="p2p-imageset" data-title="Peer 2 connects, lists the rooms, joins room 1, and annoys peer 1">
+              </a>
+              <a href="img/p2p-screenshot4.png" data-lightbox="p2p-imageset" data-title="Peer 1 replies, leaves room 1, and creates room 2">
+              </a>
+              <a href="img/p2p-screenshot5.png" data-lightbox="p2p-imageset" data-title="Peer 2 lists the rooms, joins room 2, and annoys peer 1 again.">
+              </a>
+              <a href="img/p2p-screenshot6.png" data-lightbox="p2p-imageset" data-title="Peer 1 terminates the program, and the tracker's pings account for it.">
+              </a>
+            </div>
+          </div>
+        </div>
+      </p>
       <!-- content end -->
     </div>
   </body>
