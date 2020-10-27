@@ -1,0 +1,143 @@
+#page-wrapper{
+  margin: 0 2em !important;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.header-name{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.main-nav{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/*HEADER*/
+/*desktop banner*/
+@media screen and (min-width : 769px) {
+  #banner{
+    padding: 1em 0 .25em;
+    border-bottom: 1px solid #000;
+  }
+  #nav-list{
+    float: right;
+    padding-top: 2.7em;
+  }
+}
+
+@media screen and (min-width : 992px) {
+  #banner{
+    width: 972px;
+    margin-left:  auto;
+    margin-right: auto;
+  }
+}
+
+/*mobile banner*/
+@media screen and (max-width : 768px) {
+  #banner{
+    text-align: center;
+    padding: 1em 0 .25em;
+    border-bottom: 1px solid #000;
+  }
+  #nav-list{
+    float: none;
+    padding-left: 0px;
+    padding-top: 0.5em;
+  }
+  #first-nav-element{
+    padding: 0;
+  }
+}
+#nav-list a{
+  text-decoration: none;
+  color: #224A93;
+}
+#nav-list .active{
+  font-weight: bold;
+}
+.nav-element{
+  display: inline;
+  padding: 0 0 0 1em;
+}
+.hide{
+  display: none;
+}
+
+
+/*CONTENT*/
+.content-header{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* PROJECT PAGE */
+.project{
+  margin-bottom: 50px;
+}
+/*desktop portfolio*/
+@media screen and (min-width : 992px) {
+  .portfolio{
+    width: 972px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*mobile portfolio*/
+@media screen and (max-width : 992px) {
+  .portfolio{
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+.project-image-wide{
+  width:100%;
+}
+.project-image-tall{
+  height:220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*CONTACT PAGE*/
+#contact-info{
+  width: 230px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*RESUME PAGE*/
+.work-exp{
+  margin-bottom: 20px;
+}
+.work-exp-company{
+  margin-bottom: 0px;
+}
+.work-exp-title{
+  margin-bottom: 0px;
+}
+.work-exp-list{
+  padding-left: 20px;
+}
+.resume{
+  margin-bottom: 50px;
+}
+/*desktop resume*/
+@media screen and (min-width : 769px) {
+  .resume{
+    width: 605px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*mobile resume*/
+@media screen and (max-width : 768px) {
+  .resume{
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
